@@ -1,15 +1,15 @@
 body {
-	background-color: green;
+	background-color: rgb(173, 216, 230);
 	padding: 0;
 	margin: 0;
 }
 
 h1 {
-		background-color: red;
+		background-color: blue;
 		height: 100px;
 }
 
 p {
-		background-color: yellow;
+		background-color: white;
 		height: 100px;
 }
