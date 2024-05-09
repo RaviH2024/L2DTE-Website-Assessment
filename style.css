@@ -4,12 +4,24 @@ body {
 	margin: 0;
 }
 
+header {
+	background-color: rgb(102, 153, 204);
+	height: 50px;
+	margin: 0;
+	margin-bottom: 0;
+}
+
 h1 {
 		background-color: blue;
+		padding-top: 0;
+		margin: 0;
 		height: 100px;
 }
 
 p {
 		background-color: white;
 		height: 100px;
+		padding-top: 0;
+		margin: 0;
 }
+#All of the above code is for colours and other similar variables
