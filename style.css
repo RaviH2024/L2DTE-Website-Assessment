@@ -10,7 +10,7 @@ header {
 	color: white;
 	height: 30px;
 	padding-top: 18px;
-	padding-right: 250px;
+	padding-right: 300px;
 	margin: 0;
 	margin-bottom: 0;
 	text-align: center;
@@ -19,7 +19,7 @@ header {
 h1 {
 		background-color: blue;
 		color: white;
-		font-family: Arial;
+		font-family: Noto Sans;
 		padding-top: 20px;
 		padding-left: 20px;
 		margin: 0;
@@ -27,12 +27,24 @@ h1 {
 }
 
 p {
-		background-color: white;
 		font-family: Arial;
 		height: 25px;
 		padding-top: 5px;
 		padding-left: 5px;
 		margin: 0;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	left: 10;
+	z-index: 10;
+	padding-left: 5px;
+	padding-bottom: 5px;
+	padding-top: 10px;
+	font-family: Noto Sans;
+	height: 20px;
+	color: black;
 }
 
 #All of the above code is for colours and other similar variables
@@ -48,6 +60,7 @@ p {
 .topnav a {
   float: left;
   color: #f2f2f2;
+  font-family: Noto Sans;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
