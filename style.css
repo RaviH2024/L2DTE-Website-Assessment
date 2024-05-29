@@ -40,17 +40,32 @@ h2 {
 
 p {
 	font-family: Arial;
-	height: 15px;
 	padding-top: 5px;
 	padding-left: 5px;
-	margin: 0px;
+	margin: 0;
+	margin-bottom: 5px;
 }
 
-img {
+.image2 {
+	border: solid 1px black;
+	width: 30%;
+	height: auto;
+	float: left;
+	margin-right: 5px;
+}
+
+.image1 {
+	border: solid 1px black;
 	width: 45%;
 	height: auto;
 	float: right;
-	margin-right: 10px;
+	margin-right: 5px;
+}
+
+a {
+	padding-left: 5px;
+	font-family: Arial;
+	margin-bottom: 5px;
 }
 
 footer {
@@ -92,6 +107,6 @@ footer {
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: #188ba8;
   color: white;
 }
