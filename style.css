@@ -43,7 +43,7 @@ p {
 	padding-top: 5px;
 	padding-left: 5px;
 	margin: 0;
-	margin-bottom: 5px;
+	margin-bottom: 2px;
 }
 
 .image2 {
@@ -60,23 +60,38 @@ p {
 	height: auto;
 	float: right;
 	margin-right: 5px;
+	margin-left: 4px;
+}
+
+.header {
+	padding-left: 5px;
+	font-family: Noto Sans;
+	color: white;
+	margin: 0px;
+	margin-bottom: 2px;
 }
 
 a {
 	padding-left: 5px;
 	font-family: Arial;
-	margin-bottom: 5px;
+	margin: 0px;
+	margin-bottom: 2px;
 }
 
 footer {
-	position: absolute;
-	bottom: 0;
-	padding-left: 5px;
+	text-align: center;
 	padding-bottom: 5px;
 	padding-top: 10px;
 	font-family: Noto Sans;
 	height: 20px;
-	color: black;
+	background-color: #333;
+	color: white;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
 }
 
 #All of the above code is for colours and other similar variables
