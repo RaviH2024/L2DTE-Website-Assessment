@@ -46,6 +46,15 @@ p {
 	margin-bottom: 2px;
 }
 
+.image3 {
+	border: solid 1px black;
+	width: 40%;
+	height: auto;
+	float: right;
+	margin-right: 5px;
+	margin-left: 4px;
+}
+
 .image2 {
 	border: solid 1px black;
 	width: 30%;
@@ -61,6 +70,7 @@ p {
 	float: right;
 	margin-right: 5px;
 	margin-left: 4px;
+	margin-top: 5px;
 }
 
 .header {
@@ -86,12 +96,29 @@ footer {
 	height: 20px;
 	background-color: #333;
 	color: white;
+	margin-top: 5px;
 }
 
 .wrapper {
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
+}
+
+.welcometext {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	width: 52.5%;
+	border: solid 1px black;
+	padding: 5px;
+}
+
+.welcomelastparagraph {
+	margin: auto;
+	width: 97.5%;
+	border: solid 1px black;
+	padding: 10px
 }
 
 #All of the above code is for colours and other similar variables
