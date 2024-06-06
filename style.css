@@ -5,7 +5,11 @@ body {
 	margin: 0;
 }
 /* Essentially, this makes the body colour white with 0 padding and 0 margins. Makes it so that the site background is white */
+/* Position absolute ensures the header is constantly at the top-right, with the top and right both being 0 to ensure this */
 header {
+	position: absolute;
+	top: 0;
+	right: 0;
 	background-color: #333;
 	font-family: Noto Sans;
 	color: white;
@@ -75,11 +79,8 @@ p {
 }
 /* The header is in a different class than other "a" links due to it's unique position in the top-right */
 .header {
-	padding-left: 5px;
 	font-family: Noto Sans;
 	color: white;
-	margin: 0px;
-	margin-bottom: 2px;
 }
 
 a {
@@ -153,6 +154,7 @@ footer {
 .topnav {
   background-color: #333;
   overflow: hidden;
+  height: 48.2px;
 }
 
 /* Style the links inside the navigation bar */
