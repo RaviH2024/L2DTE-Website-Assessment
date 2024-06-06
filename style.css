@@ -1,9 +1,10 @@
+/* This document is for colors, fonts, padding, margins, etc */
 body {
 	background-color: white;
 	padding: 0;
 	margin: 0;
 }
-
+/* Essentially, this makes the body colour white with 0 padding and 0 margins. Makes it so that the site background is white */
 header {
 	background-color: #333;
 	font-family: Noto Sans;
@@ -36,16 +37,16 @@ h2 {
 	padding-bottom: 10px;
 	height: 30px;
 	margin: 0;
+	margin-bottom: 5px;
 }
 
 p {
 	font-family: Arial;
-	padding-top: 5px;
 	padding-left: 5px;
 	margin: 0;
-	margin-bottom: 2px;
+	margin-bottom: 5px;
 }
-
+/* Makes the images have a border, set their size, and float to the right or left of the text of the site */
 .image3 {
 	border: solid 1px black;
 	width: 40%;
@@ -54,13 +55,14 @@ p {
 	margin-right: 5px;
 	margin-left: 4px;
 }
-
+/* Utilizes different div classes due to the different positioning and size of each image */
 .image2 {
 	border: solid 1px black;
 	width: 30%;
 	height: auto;
 	float: left;
 	margin-right: 5px;
+	margin-left: 5px;
 }
 
 .image1 {
@@ -70,9 +72,8 @@ p {
 	float: right;
 	margin-right: 5px;
 	margin-left: 4px;
-	margin-top: 5px;
 }
-
+/* The header is in a different class than other "a" links due to it's unique position in the top-right */
 .header {
 	padding-left: 5px;
 	font-family: Noto Sans;
@@ -87,7 +88,7 @@ a {
 	margin: 0px;
 	margin-bottom: 2px;
 }
-
+/* Sets up the footer to be at the center, it's height, and etc */
 footer {
 	text-align: center;
 	padding-bottom: 5px;
@@ -98,11 +99,35 @@ footer {
 	color: white;
 	margin-top: 5px;
 }
-
+/* Sets up the wrapper class to use flex and be in a column format - makes things adaptable, especially important for the footer */
 .wrapper {
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
+}
+/* Below is code for the boxes all over the site, in different classes due to how things are. Border is the one that makes the boxes - the other variables are for things like positioning and size */
+.profilelowertext {
+	width: 97.5%;
+	border: solid 1px black;
+	margin: auto;
+	padding: 10px;
+}
+
+.profiletext {
+	width: 68.5%;
+	border: solid 1px black;
+	margin-left: auto;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	padding: 2px;
+}
+
+.contacts {
+	margin: auto;
+	width: 40%;
+	border: solid 1px black;
+	background-color: white;
+	padding: 5px;
 }
 
 .welcometext {
@@ -121,8 +146,8 @@ footer {
 	padding: 10px
 }
 
-#All of the above code is for colours and other similar variables
-#And is code made by myself - below is code copy/pasted - sad face
+/* All code above is essentially images, boxes, text fonts, etc */
+/* Below is code from outside sources, mainly for the nav bar :( modified for things like fonts, colours, etc */
 
 /* Add a black background color to the top navigation */
 .topnav {
