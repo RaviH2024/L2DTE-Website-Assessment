@@ -130,6 +130,12 @@ footer {
 	background-color: white;
 	padding: 5px;
 }
+/* Sets it so the footer is at the bottom regardless of the lack of content - also makes it so the text is in the middle and the background color goes all across */
+.otherfooters {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
 
 .welcometext {
 	margin-top: 5px;
