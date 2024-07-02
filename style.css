@@ -159,7 +159,8 @@ footer {
 
 .about {
 	border: solid 1px black;
-	height: 373.5px;
+	height: 368.5px;
+	padding-top: 5px;
 	width: 55%;
 	margin-left: 5px;
 	margin-right: 5px;
